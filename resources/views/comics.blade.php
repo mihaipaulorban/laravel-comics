@@ -1,5 +1,5 @@
 @extends('layouts.main')
 
 @section('main')
-    Contenuto della Homepage
+    Contenuto dei fumetti
 @endsection

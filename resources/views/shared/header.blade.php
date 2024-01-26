@@ -4,9 +4,9 @@
     </div>
     <nav>
         <ul class="my-menu list-unstyled d-flex align-items-center gap-2">
-            <li> <a class="my-menu-link" href="">Home</a></li>
-            <li> <a class="my-menu-link" href="">Comics</a></li>
-            <li> <a class="my-menu-link" href="">News</a></li>
+            <li> <a class="my-menu-link" href="{{ route('home')}}">Home</a></li>
+            <li> <a class="my-menu-link" href="{{ route('comics')}}">Comics</a></li>
+            <li> <a class="my-menu-link" href="{{ route('news')}}">News</a></li>
         </ul>
     </nav>
 </header>

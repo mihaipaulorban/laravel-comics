@@ -1,0 +1,21 @@
+.card {
+    border: 1px solid rgba(0, 0, 0, 0.125);
+
+    .card-img-top {
+        height: 550px;
+        object-fit: cover;
+    }
+
+    .card-body {
+        h5.card-title {
+            font-size: 1.5rem;
+            color: #333;
+        }
+
+        p.card-text {
+            font-size: 1.2rem;
+            color: #007bff;
+            font-weight: bold;
+        }
+    }
+}

@@ -1,5 +1,5 @@
 @extends('layouts.main')
 
 @section('main')
-Contenuto Home
+    Contenuto delle news
 @endsection

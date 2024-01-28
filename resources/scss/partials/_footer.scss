@@ -1,0 +1,44 @@
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$background-color: #f8f9fa;
+$font-color: #343a40;
+
+.footer-container {
+    background-color: $background-color;
+    padding: 20px 0;
+    color: $font-color;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    .social-sign-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 40px;
+        align-items: center;
+
+        .sign-btn {
+            background-color: $primary-color;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        .social {
+            h3 {
+                color: $font-color;
+            }
+
+            a {
+                color: $font-color;
+                margin: 0 5px;
+            }
+
+            img {
+                filter: brightness(0.5) invert(0);
+            }
+        }
+    }
+}

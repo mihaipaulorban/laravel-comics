@@ -9,7 +9,7 @@
                     <img src="{{ $comic['thumb'] }}" class="card-img-top" alt="Copertina di {{ $comic['title'] }}">
                     <div class="card-body">
                         <h5 class="card-title">{{ $comic['title'] }}</h5>
-                        <p class="card-text">{{ $comic['price'] }}</p>
+                        <p class="blue-card-text">{{ $comic['price'] }}</p>
                     </div>
                 </div>
             </div>
